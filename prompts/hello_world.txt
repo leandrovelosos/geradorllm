@@ -1,0 +1,1 @@
+Me retorne um codigo em JavaScript que imprime 'Hello, World!' no console.log(). Não adicione explicações, comentários, ``,  ou marcações Markdown.

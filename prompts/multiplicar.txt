@@ -1,0 +1,1 @@
+Escreva uma função em JavaScript para multiplicar dois números 5 e 7 e exiba o resultado da multiplicação no console. Não adicione explicações, comentários ou marcações Markdown.

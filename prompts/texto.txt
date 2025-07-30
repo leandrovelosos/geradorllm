@@ -1,0 +1,1 @@
+Escreva uma string simples em JavaScript e execute com console,log. Não adicione explicações, comentários ou marcações Markdown. Somente a String.
