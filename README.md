@@ -21,7 +21,7 @@ ollama run mistral
 2. Clone o repositório:
    
 ```bash
-git clone https://github.com/leandrovelosos/geradorllm.git
+git clone https://github.com/leandrovelosos/geradorllmolama.git
 ```
 3. Crie o ambiente python e instale as dependencias:
    
