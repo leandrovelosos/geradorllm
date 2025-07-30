@@ -1,14 +1,15 @@
+#import para manipulacao de expressoes regulares
 import re
 
 def validar_saida(saida_esperada, saida_obtida: str) -> bool:
     saida_obtida = saida_obtida.strip().lower()
 
     if saida_esperada == int:
-        # Verifica se há pelo menos um número na saída
+        #verifica se ha pelo menos um numero na saida
         return re.search(r"-?\d+", saida_obtida) is not None
 
     elif saida_esperada == bool:
-        # Verifica se a saída é 'true' ou 'false' (pode ser múltiplas linhas)
+        #verifica se a saida e true ou false 
         linhas = [linha.strip() for linha in saida_obtida.splitlines()]
         return len(linhas) > 0 and all(linha in ("true", "false") for linha in linhas)
     
@@ -18,7 +19,7 @@ def validar_saida(saida_esperada, saida_obtida: str) -> bool:
     else:
         return False
 
-
+#imprime no console a saida esperada e obtida e um resultado mostrando se a saida e valida.
 def exibir_resultado(saida_esperada, saida_obtida: str):
     print("Saída esperada:", repr(saida_esperada))
     print("Saída obtida:", repr(saida_obtida.strip()))
